@@ -15,5 +15,6 @@ class Genre < ActiveRecord::Base
     self.artists.each do |artist|
       var << artist.name
     end
+    var
   end
 end
